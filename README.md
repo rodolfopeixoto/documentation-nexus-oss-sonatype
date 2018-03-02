@@ -18,6 +18,9 @@ ATENÇÃO
 Configuração inicial
 ---------------------
 
+Link para configurar o proxy:
+[PROXY](https://books.sonatype.com/mcookbook/reference/repoman-sect-proxy-repo.html)
+
 O docker-compose está configurado para rodar na porta **8081**, caso tenha interesse em modificar, basta ir ao 
 
 Documentação
