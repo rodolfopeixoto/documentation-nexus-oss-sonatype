@@ -6,18 +6,19 @@ Versão do Projeto 0.1
 ================
 
 Sobre esta versão
-
 ---------------------
+
 Site desenvolvido:
+
 Utilizado:
 
 ATENÇÃO
-
 ---------------------
 
 Configuração inicial
-
 ---------------------
+
+O docker-compose está configurado para rodar na porta **8081**, caso tenha interesse em modificar, basta ir ao 
 
 Documentação
 ----------------------
