@@ -1,6 +1,6 @@
 # NEXUS OSS
 
-Nexus
+The world's only repository manager with FREE support for popular formats. 
 
 Versão do Projeto OSS 2.14.8-01
 =========================================================
@@ -9,6 +9,7 @@ ATENÇÃO
 ================================
 
 **Username:** admin
+
 **Password:** admin123
 
 
