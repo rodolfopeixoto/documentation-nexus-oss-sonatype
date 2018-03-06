@@ -2,7 +2,7 @@
 
 Nexus
 
-Versão do Projeto Nexus Repository Manager OSS 2.14.8-01
+Versão do Projeto OSS 2.14.8-01
 =========================================================
 
 ATENÇÃO
@@ -32,20 +32,25 @@ Acessar o sistema: localhost:8081/nexus
 
 Para criar um repostitório para uma determinada linguagem, devemos seguir os passos abaixo:
 
-1 - Clique no botão + Add
-2 - Proxy Repository
-3 - Repository ID ( dê o nome que desejar, porém ele será o ID único: rubygems)
-4 - Repository Name: ( dê um nome a esse repostirorio RubyGem)
-5 - Em Remote Storage Location adicione o endereço do repositório. Por exemplo: https://rubygems.org/
-6 - Clique em Save.
+**1** - Clique no botão **+ Add**
 
-Caso, você tenha PROXY, vamos configurar:
+**2** - **Proxy Repository**
 
-Clique em Administration ( Aba à esquerda ) e clique em Server.
+**3** - **Repository ID** ( dê o nome que desejar, porém ele será o ID único: rubygems)
 
-Em baixo, você vericicará uma caixa para marcar escrito: Default HTTP Proxy Settings (optional) e Default HTTPS Proxy Settings (optional defaults to HTTP Proxy Settings):
+**4** - **Repository Name**: ( dê um nome a esse repostirorio RubyGems)
 
-Em ambos marque e adicione o Proxy Host e a Porta, após adicionar, basta clicar em save.
+**5** - Em **Remote Storage Location** adicione o endereço do repositório. Por exemplo: https://rubygems.org/
+
+**6** - Clique em **Save**.
+
+Caso, você tenha **PROXY**, vamos configurar:
+
+Clique em **Administration** ( Aba à esquerda ) e clique em **Server**.
+
+Em baixo, você vericicará uma caixa para marcar escrito: **Default HTTP Proxy Settings (optional)** e **Default HTTPS Proxy Settings (optional defaults to HTTP Proxy Settings)**:
+
+Em ambos marque e adicione o **Proxy Host** e a **Porta**, após adicionar, basta clicar em save.
 
 Depois volte ao link **Repositories** com o botão direito no repositório que você criou, clique em **Allow Proxy**
 
@@ -54,7 +59,7 @@ Agora você pode configurar seu projeto:
 
 É necessário adicionar as configurações abaixo para que funcione o sistema para ruby gems ou bundle.
 
-DOCKERFILE
+**DOCKERFILE**
 
 ```
 RUN gem sources --add http://admin:admin123@10.0.18.65:8081/nexus/content/repositories/rubygems-org/
