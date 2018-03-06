@@ -48,7 +48,7 @@ Caso, você tenha **PROXY**, vamos configurar:
 
 Clique em **Administration** ( Aba à esquerda ) e clique em **Server**.
 
-Em baixo, você vericicará uma caixa para marcar escrito: **Default HTTP Proxy Settings (optional)** e **Default HTTPS Proxy Settings (optional defaults to HTTP Proxy Settings)**:
+Em baixo, você verificará uma caixa para marcar escrito: **Default HTTP Proxy Settings (optional)** e **Default HTTPS Proxy Settings (optional defaults to HTTP Proxy Settings)**:
 
 Em ambos marque e adicione o **Proxy Host** e a **Porta**, após adicionar, basta clicar em save.
 
